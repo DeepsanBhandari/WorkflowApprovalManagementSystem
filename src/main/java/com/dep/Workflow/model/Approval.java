@@ -14,4 +14,6 @@ public class Approval {
     private LocalDateTime createdAt;
 
 
+    public Approval(String title, String description, String requestedBy) {
+    }
 }

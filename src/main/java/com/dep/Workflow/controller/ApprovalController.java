@@ -21,7 +21,7 @@ public class ApprovalController {
     }
 
     private Approval createSampleApproval(String title, String description, String requestedBy) {
-        Approval approval = new Approval(title, description, requestedBy);
+        Approval approval =  new Approval(title, description, requestedBy);
         approval.setId(idCounter++);
         return approval;
     }
